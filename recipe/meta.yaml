@@ -1,5 +1,5 @@
 {% set name = "SharedArray" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c7a47d3d2aacf07428438e938dee609d2306859ff5e2ed20df7fd28bc6bea3db
+  sha256: a1f3aad1f1f40e84cbfda0e0a33d3f5148551f5a65a0d274d04d8988e69a20ac
 
 build:
   number: 0
