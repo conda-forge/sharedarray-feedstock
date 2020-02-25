@@ -28,6 +28,8 @@ requirements:
 test:
   imports:
     - SharedArray
+  commands:
+    - pip check
 
 about:
   home: https://gitlab.com/tenzing/shared-array
