@@ -10,7 +10,7 @@ source:
   sha256: b8b8d189110c023b9de502f9396ff2591f660fb2c9637eb13fcaf233127e50be
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
@@ -21,6 +21,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
     - numpy
   run:
     - python
@@ -34,7 +35,7 @@ test:
 
 about:
   home: https://gitlab.com/tenzing/shared-array
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE.txt
   summary: SharedArray python/numpy extension
